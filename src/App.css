@@ -1,3 +1,8 @@
-.app{
-    font-family: Arial;
+.app {
+  font-family: Arial;
+}
+/*declaring css global variable*/
+body {
+  --baithak-color: 	#DAA520;
+    --baithak-background:#e6ecf0;
 }
