@@ -2,16 +2,18 @@
     height: 45px;
     width: 45px;
     color: var(--baithak-color);
-    font-size: 30px !important;
     margin-left: 20px;
-    margin-bottom: 20px;
 }
 .sidebar{
     border-right: 1px solid var(--baithak-background);
-    flex: 0.3;
-    margin-top: 20px;
+    flex: 0.2;
+    margin-top: 10px;
     padding-left: 20px ;
     padding-right: 20px ;
+    overflow-y: scroll;
+}
+.sidebar::-webkit-scrollbar{
+    display: none;
 }
 .sidebar__post {
     background-color: var(--baithak-color) !important;
@@ -21,5 +23,5 @@
     text-transform: inherit !important;
     border-radius: 30px !important;
     height: 50px !important;
-    margin-top: 20px !important;
+    margin-top: 10px !important;
 }
