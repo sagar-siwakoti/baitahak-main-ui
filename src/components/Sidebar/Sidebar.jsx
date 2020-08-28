@@ -21,7 +21,7 @@ function Sidebar() {
             <SidebarOption Icon={NotificationsNoneIcon} text="Notifications" />
             <SidebarOption Icon={MailOutlineIcon} text="Messages" />
             <SidebarOption Icon={BookmarkBorderIcon} text="Bookmarks" />
-            <SidebarOption Icon={ListAltIcon} text="Lists" />
+            <SidebarOption Icon={ListAltIcon} text="Events" />
             <SidebarOption Icon={PermIdentityIcon} text="Profile" />
             <SidebarOption Icon={MoreHorizIcon} text="More" />
 
