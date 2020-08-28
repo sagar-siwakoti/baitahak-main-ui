@@ -1,6 +1,17 @@
-.sidebar__icon{
-    height: 30px;
-    width: 30px;
+.sidebar__baithakIcon{
+    height: 45px;
+    width: 45px;
+    color: var(--baithak-color);
+    font-size: 30px !important;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.sidebar{
+    border-right: 1px solid var(--baithak-background);
+    flex: 0.3;
+    margin-top: 20px;
+    padding-left: 20px ;
+    padding-right: 20px ;
 }
 .sidebar__post {
     background-color: var(--baithak-color) !important;

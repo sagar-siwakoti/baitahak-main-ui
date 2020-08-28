@@ -1,8 +1,16 @@
 .app {
   font-family: Arial;
+  display: flex;
+  /*to make use of full screen in sidebar*/
+  height: 100vh;
+  min-width: 250px;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
 }
 /*declaring css global variable*/
 body {
-  --baithak-color: 	#DAA520;
-    --baithak-background:#e6ecf0;
+  --baithak-color: #daa520;
+  --baithak-background: #e6ecf0;
 }

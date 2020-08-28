@@ -15,7 +15,7 @@ import { Button } from "@material-ui/core";
 function Sidebar() {
     return (
         <div className="sidebar">
-            <img src={BaithakIcon} alt="icon" className="sidebar__icon"/>
+            <img src={BaithakIcon} alt="icon" className="sidebar__baithakIcon"/>
             <SidebarOption active Icon={HomeIcon} text="Home" />
             <SidebarOption Icon={SearchIcon} text="Explore" />
             <SidebarOption Icon={NotificationsNoneIcon} text="Notifications" />
