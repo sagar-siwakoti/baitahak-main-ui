@@ -1,9 +1,6 @@
 import React from "react";
 import "../../styles/Widgets/Widgets.css";
-import {
-  TwitterTimelineEmbed,
-  TwitterTweetEmbed,
-} from "react-twitter-embed";
+import { TwitterTimelineEmbed, TwitterTweetEmbed } from "react-twitter-embed";
 import SearchIcon from "@material-ui/icons/Search";
 
 function Widgets(props) {
@@ -11,7 +8,7 @@ function Widgets(props) {
     <div className="widgets">
       <div className="widgets__input">
         <SearchIcon className="widgets__searchIcon" />
-        <input placeholder="Search Twitter" type="text" />
+        <input placeholder="Search Baithak" type="text" />
       </div>
       <div className="widgets__widgetContainer">
         <h2>What's happening</h2>
@@ -21,7 +18,6 @@ function Widgets(props) {
           screenName="EuropaLeague"
           options={{ height: 400 }}
         />
-
       </div>
     </div>
   );

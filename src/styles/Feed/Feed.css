@@ -5,12 +5,17 @@
     overflow-y:scroll ;
 }
 .feed__header{
+    display: flex;
+    justify-content: space-between;
     position: sticky;
     top: 0;
     background-color: white;
     z-index: 100;
     border: 1px solid var(--baithak-background);
     padding: 15px 20px;
+}
+.feed__header >.MuiSvgIcon-root{
+color: var(--baithak-color);
 }
 .feed::-webkit-scrollbar {
     display: none;

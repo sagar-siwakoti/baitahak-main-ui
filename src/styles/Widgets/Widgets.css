@@ -18,6 +18,8 @@
 .widgets__input > input {
   border: none;
   background-color: var(--baithak-background);
+    outline: none;
+    width: 100%;
 }
 
 .widgets__searchIcon {
