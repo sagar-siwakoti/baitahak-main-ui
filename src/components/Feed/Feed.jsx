@@ -1,5 +1,7 @@
 import React from "react";
 import "../../styles/Feed/Feed.css";
+import PostBox from "../PostBox/PostBox";
+import Post from "../Post/Post";
 function Feed(props) {
   return (
     <div className="feed">
@@ -8,12 +10,12 @@ function Feed(props) {
         <h2>Home</h2>
       </div>
       {/*Tweet/Post Box*/}
+      <PostBox />
       {/*Post*/}
-      {/*Post*/}
-      {/*Post*/}
-      {/*Post*/}
-      {/*Post*/}
-      {/*Post*/}
+      <Post />
+      <Post />
+      <Post />
+      <Post />
     </div>
   );
 }
